@@ -1,0 +1,300 @@
+body{
+  color: #000000;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+  background-image: url("C:/Users/Dimitris Olympios/Desktop/Web development/CSS-My site/images/Dimi.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Futura', cursive;
+}
+
+h2 {
+  color: #29bb89;
+  font-family: 'Futura', cursive;
+  font-size: 4rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  line-height: 2;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Futura', cursive;
+  font-size: 1.5rem;
+}
+
+p {
+  line-height: 2;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+hr {
+  border: dotted #11999E 6px;
+  border-bottom: none;
+  width: 20%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6
+}
+
+.social {
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000;
+  font-size: 2.1rem;
+  line-height: 2;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Futura', cursive;
+  text-align: center;
+}
+
+.mas {
+  color: #e6dd3b;
+  font-family: 'Montserrat-Black', sans-serif;
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #29bb89;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #e6dd3b;
+  margin: 100px;
+}
+
+.bottom-container {
+  background-color: #29bb89;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  font-size: 18px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+.pg {
+  width: 100px%;
+  margin: auto;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 18px;
+}
+
+.contact-message {
+  font-size: 20px;
+  width: 50%;
+  margin: 40px auto 60px;
+  text-align: center;
+}
+
+.copyright {
+  color: #e6dd3b;
+  font-size: 1rem;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.bottom-cloud1 {
+  position: absolute;
+  left: 250px;
+  top: 50px;
+}
+
+.top-cloud1 {
+  position: absolute;
+  left: 180px;
+  top: 80px;
+}
+
+.middle-cloud1 {
+  position: absolute;
+  left: 110px;
+  top: 110px;
+}
+
+.Facebook {
+  position: absolute;
+  left: 110px;
+  bottom: 150px;
+}
+
+.Instagram {
+  position: absolute;
+  left: 220px;
+  bottom: 150px;
+}
+
+.Tiktok {
+  position: absolute;
+  left: 330px;
+  bottom: 150px;
+}
+
+.Twitter {
+  position: absolute;
+  right: 110px;
+  bottom: 150px;
+}
+
+.Snapchat {
+  position: absolute;
+  right: 220px;
+  bottom: 150px;
+}
+
+.Linkedin {
+  position: absolute;
+  right: 330px;
+  bottom: 150px;
+}
+
+.circle {
+  margin-top: 50px;
+}
+
+.location {
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+
+.network {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.communication {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.illustration {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dj {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.football {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.workout {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #0059A0 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e4405f;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
