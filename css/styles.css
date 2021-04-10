@@ -4,7 +4,7 @@ body{
   text-align: center;
   font-family: 'Merriweather', serif;
   font-size: 2em;
-  background-image: url("C:/Users/Dimitris Olympios/Desktop/Web development/CSS-My site/images/Dimi.jpg");
+  background-image: url("../Dimi.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-attachment: fixed;
